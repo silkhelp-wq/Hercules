@@ -149,7 +149,7 @@ packetLen(0x008a, 29)
 packetLen(0x008b, 23)
 
 // Packet: 0x008c
-packetLen(0x008c, 14)
+packetLen(0x008c, -1)
 
 // Packet: 0x008d
 packetLen(0x008d, -1)
