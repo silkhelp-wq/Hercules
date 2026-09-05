@@ -157,10 +157,10 @@ MSC_MYHPLTMAXRATE     | Monster's HP in percent is less than or equal to `Condit
 MSC_MYHPINRATE        | Monster's HP in percent is greater than or equal to `ConditionData` and less than or equal to `val0`.
 MSC_FRIENDHPLTMAXRATE | Friend's HP in percent is less than or equal to `ConditionData`.
 MSC_FRIENDHPINRATE    | Friend's HP in percent is greater than or equal to `ConditionData` and less than or equal to `val0`.
-MSC_MYSTATUSON        | Monster has status change `ConditionData` enabled. (See [doc/constants.md](./constants.md#Status-Changes) for a list of available status changes.)
-MSC_MYSTATUSOFF       | Monster has status change `ConditionData` disabled. (See [doc/constants.md](./constants.md#Status-Changes) for a list of available status changes.)
-MSC_FRIENDSTATUSON    | Friend has status change `ConditionData` enabled. (See [doc/constants.md](./constants.md#Status-Changes) for a list of available status changes.)
-MSC_FRIENDSTATUSOFF   | Friend has status change `ConditionData` disabled. (See [doc/constants.md](./constants.md#Status-Changes) for a list of available status changes.)
+MSC_MYSTATUSON        | Monster has status change `ConditionData` enabled. (See [doc/constants_re.md](./constants_re.md#status-changes) for a list of available status changes.)
+MSC_MYSTATUSOFF       | Monster has status change `ConditionData` disabled. (See [doc/constants_re.md](./constants_re.md#status-changes) for a list of available status changes.)
+MSC_FRIENDSTATUSON    | Friend has status change `ConditionData` enabled. (See [doc/constants_re.md](./constants_re.md#status-changes) for a list of available status changes.)
+MSC_FRIENDSTATUSOFF   | Friend has status change `ConditionData` disabled. (See [doc/constants_re.md](./constants_re.md#status-changes) for a list of available status changes.)
 MSC_ATTACKPCGT        | Monster is attacked by more than `ConditionData` units.
 MSC_ATTACKPCGE        | Monster is attacked by `ConditionData` or more units.
 MSC_SLAVELT           | Monster has less than `ConditionData` slaves.
@@ -186,8 +186,8 @@ Additional data. Meaning depends on the situation.
  * `NPC_SUMMONMONSTER`: Slave monster ID.
  * `NPC_SUMMONSLAVE`: Slave monster ID.
  * `NPC_METAMORPHOSIS`: Transform monster ID.
- * `NPC_EMOTION`: Emotion ID. (See [doc/constants.md](./constants.md#emotes) for a list of available emotions.)
- * `NPC_EMOTION_ON`: Emotion ID. (See [doc/constants.md](./constants.md#emotes) for a list of available emotions.)
+ * `NPC_EMOTION`: Emotion ID. (See [doc/constants_re.md](./constants_re.md#emotes) for a list of available emotions.)
+ * `NPC_EMOTION_ON`: Emotion ID. (See [doc/constants_re.md](./constants_re.md#emotes) for a list of available emotions.)
 
 `val0` may receive the number directly, a constant (e.g. "PORING" instead of 1002) or even a bitmask array (e.g. ["MD_CANMOVE", "MD_LOOTER"] instead of 3 (1 + 2))
 
@@ -227,7 +227,7 @@ Additional data. Meaning depends on the situation.
 
 ### Emotion
 The ID of the emotion the monster will use when casting the skill.  
-(See [doc/constants.md](./constants.md#emotes) for a list of available emotions.)
+(See [doc/constants_re.md](./constants_re.md#emotes) for a list of available emotions.)
 
 ### ChatMsgID
 The ID of the message the monster will say when casting the skill.
