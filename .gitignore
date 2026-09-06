@@ -148,3 +148,4 @@ Thumbs.db
 
 # visual studio
 /.vs/
+.container-build-id
